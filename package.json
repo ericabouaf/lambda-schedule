@@ -1,0 +1,29 @@
+{
+  "name": "lambda-schedule",
+  "version": "1.0.0",
+  "description": "Schedule lambda execution, cron-style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Eric Abouaf",
+    "email": "eric.abouaf@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neyric/lambda-schedule.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda"
+  ],
+  "bugs": {
+    "url": "https://github.com/neyric/lambda-schedule/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1.45",
+    "node-schedule": "^0.2.9"
+  }
+}
